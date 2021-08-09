@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            
+            h2{
+                font-family: 'Century Gothic',sans-serif;
+                margin-left: 10%;
+                font-stretch: expanded;
+                font-size: 25px;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .container > div {
+                
+                background-image:linear-gradient(rgb(82, 3, 55),black);
+                font-size: 25px;
+                text-align: center;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+                align-items: center;
+                color: white;
+            }
+            .container > div a{
+                text-decoration: none;
+                color: white;
+            }
+            .container :hover
+            {
+                transition: all 0.6s ease-in-out 0s; color: hotpink;
+                
+                /* transform: scale(0.9,1); */
+            }
+            body {margin: 0; background-image: linear-gradient(rgb(51, 0, 40),black);}
+
+            ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(155, 4, 122);
+            }
+
+            ul.topnav li {float: left; font-family: 'Century Gothic',sans-serif;}
+
+            ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 50px;
+            text-decoration: none;
+            font-size: 20px;
+            }
+
+            ul.topnav li a:hover:not(.active) {background-color: #111; transition: all 0.6s ease-in-out 0s; color: hotpink;}
+
+            ul.topnav li a.active {background-color:rgb(46, 0, 40); transition: all 0.6s ease-in-out 0s; color: hotpink;}
+
+            ul.topnav li.right {float: right;}
+
+            @media screen and (max-width: 600px) {
+            ul.topnav li.right, 
+            ul.topnav li {float: none;}
+            }
+            hr{
+               border: 1px dashed white;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="topnav">
+            
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a  href="qualification.html">Qualification</a></li>
+            <!-- <li><a  href="projects.html">Projects</a></li> -->
+            <li><a  class="active" href="skills.html">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1yQLcjrL8QW4BcKagAztt6GzqQw0RcxTr/view?usp=sharing"> <span>Resume</span></a></li>
+            <li ><a  href="contact.html">Contact</a></li>
+            <li><h1 style="margin-left:100px;color: white; margin-top: 6%;font-family: 'Century Gothic',sans-serif; font-size: 32px;"><strong>Vishwaja Meddela</strong></h1></li>
+          </ul>
+          <br>
+        <h2 style="color: white;">
+            SKILLS <hr>
+        </h2>
+        <br>
+        <div class="container" style="margin-left: 10%; font-family: 'Century Gothic',sans-serif;">
+            <div><img src="Python-PNG-File.png" width="70%" height="60%" > <div> <br><strong> Python</strong> </div></div>
+            <div><img src="java.png" width="70%" height="60%"><div> <br><strong> Java</strong></div></div>
+            <div><img src="html5.png" width="65%" height="60%" > <div><br><strong> HTML 5</strong> </div></div>
+            <div><img src="css3.png" width="70%" height="60%" > <div><br><strong> CSS 3</strong> </div></div>
+            <div><img src="msexcel.png" width="80%" height="68%" > <div> <br><strong> MS Excel</strong> </div></div>
+            <div><img src="linux2.png" width="100%" height="80%" > <div> <strong> Linux</strong> </div></div>
+            
+        </div>
+        
+    </body>
+</html>
